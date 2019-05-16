@@ -1,0 +1,41 @@
+﻿#recipe  {
+	width: 670px;
+	height: 1200px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	border: thin solid blue;
+
+}
+
+
+.recipe_title  {
+	width: 150px;
+	height: 25px;
+	padding: 2px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	border: thin solid green;
+	
+
+	
+}
+
+
+.recipe_text  {
+	width: 650px;
+	height: 1200px;
+	padding: 10px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	border: thin solid yellow;
+	
+	
+}

@@ -1,0 +1,257 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../../images/mainbg.png");
+	background-repeat: repeat-x;
+	background-color: #cb1a1a;
+}
+
+p {
+	padding: 10px 10px 10px 20px;
+	display:block;
+	color:#525757;
+	font-size: 11px;
+	font-weight: bold
+}
+
+a {
+	color:#6b7272;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#container {
+	margin: 0px auto;
+	width: 1000px;
+	background-image: none;
+}
+
+#top_bar {
+	position:relative;
+	height: 75px;
+	width: 1000px;
+	background-color: #FFF;
+}
+
+#header{
+	height:210px;
+	width:1000px;
+	background-image: url("../../images/headerbg.png");
+	background-repeat: no-repeat;
+}
+
+#menu {
+	float: center;
+	margin-top: 90px;
+	margin-left: 235px;
+}
+
+#navbar{
+	position:relative;
+	height: 50px;
+	width: 1000px;
+	background-repeat:no-repeat;
+}
+
+
+.last{
+	border-right: 0px none #6b7272 !important;
+}
+
+/********************* Content DIVs ****************************/
+#content{
+	height: 100%;
+	background-color: #cb1a1a;
+}
+
+#sidebar {
+	width: 260px;
+	padding: 10px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: auto;
+	/*border: thin solid blue;*/
+	/*background-color: #FFF;*/
+}
+.sidebar_a1  {
+	width: 254px;
+	height: 254px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 10px;*/
+	/*border: 1px solid red;*/
+}
+.sidebar_a2  {
+	width: 254px;
+	height: 254px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	/*border: 1px solid red;*/
+}
+.sidebar_sub_a  {
+	width: 125px;
+	height: 125px;
+	/*border: 1px solid green;*/
+	float: left;
+	margin-bottom: 5px;
+}
+.sidebar_sub_b  {
+	width: 125px;
+	height: auto;
+	/*border: 1px solid green;*/
+	float: right;
+	margin-bottom: 5px;
+}
+
+#main {
+	width: 690px;
+	height: auto;
+	padding: 10px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: auto;
+	background-color: #FFF;
+
+}
+#main_a  {
+	width: 690px;
+	height: auto;
+	border: red solid 1px;
+
+}
+.main_a_sub1  {
+	Width: 670px;
+	height: auto;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	padding-bottom: 5px;
+	border: solid 1px grey;
+}
+.main_a_sub2  {
+	Width: 670px;
+	height: auto;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	padding-bottom: 5px;
+	border: solid 1px grey;
+}
+.main_a_sub3  {
+	Width: 670px;
+	height: auto;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	padding-bottom: 5px;
+	border: solid 1px grey;
+}
+
+
+#bottom {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+/********************* 1 Column Post ********************/
+#onemiddle{
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+
+.onepostheader{
+	background-image:url(/images/1posttop.gif);
+	display:block;
+	width:1000px;
+	height:37px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.onepostheader h1{
+	padding: 7px 0px 0px 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.onepostcontent{
+	background-image:url(/images/1postmiddle.gif);
+	background-repeat: repeat-y;
+	width: 1000px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+/*	border: thin solid red;*/
+}
+
+.onepostfooter{
+	background-image:url(/images/1postbottom.gif);
+	background-repeat: no-repeat;
+	display:block;
+	width:1000px;
+	height:15px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/********************* footer ****************************/
+#footer{
+	clear: both;
+	width:1000px;
+}
+
+#footer span{
+	color:#FFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-align:center;
+	width:1000px;
+	display:block;
+	padding: 15px 0px;
+}
+
+.last{
+	border-right: 0px none #6b7272 !important;
+}
+
+#review_border  {
+	
+	border: thin grey solid;	
+	
+	}
+}
+/***********************banner admin*********************/
+
+
+
